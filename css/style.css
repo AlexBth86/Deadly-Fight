@@ -1,0 +1,234 @@
+header {
+	display: flex;
+	justify-content: center;
+	margin-bottom: -1em;
+}
+
+h1 {
+	font-family: 'Anton', sans-serif;
+	font-size: 3em;
+	text-align: center;
+	color: #ffcf00;
+	letter-spacing: .05em;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	color: #3c4142;
+	letter-spacing: .005em;
+}
+
+#content {
+	display: flex;
+	justify-content: center;
+}
+
+#plateau-jeu {
+	/*border: .5px solid #adadad;*/
+	background-color: #ececec;
+	padding: .5em;
+}
+
+#jeu-2shooters {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	background-color: #ececec;
+	padding-left: 3%;
+	padding-right: 3%;
+	margin-right: 1%;
+	position: relative;
+	/*border:1px solid #adadad;*/
+}
+
+#commentaires-jeu {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color: #3c4142;
+}
+
+.game-button {
+	margin: 4% auto;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.hide {
+	display: none;
+}
+
+.master-row {
+	display: flex;
+	justify-content: right;
+}
+
+.available {
+	width: 50px;
+	height: 50px;
+	border:2px solid #3c4142;
+	border-radius: 25px;
+	margin: 3px 3px 3px 3px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+.unavailable {
+	width: 50px;
+	height: 50px;
+	background-color: #3c4142;
+	border:2px solid #3c4142;
+	border-radius: 25px;
+	margin: 3px 3px 3px 3px;
+}
+
+.thumbnail-arme1 {
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	background-color: #ffffff ;
+	background-image: url("../img/blade-black.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:1px solid #3c4142;
+	border-radius: 11px;
+    width: 55%;
+    height: 55%;
+}
+
+.thumbnail-arme2 {
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	background-color: #ffffff ;
+	background-image: url("../img/guns-black.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:1px solid #3c4142;
+	border-radius: 11px;
+    width: 55%;
+    height: 55%;
+}
+
+.thumbnail-arme3 {
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	background-color: #ffffff ;
+	background-image: url("../img/bomb-black.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:1px solid #3c4142;
+	border-radius: 11px;
+    width: 55%;
+    height: 55%;
+}
+
+.thumbnail-arme4 {
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	background-color: #ffffff ;
+	background-image: url("../img/sniper-black.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:1px solid #3c4142;
+	border-radius: 11px;
+    width: 55%;
+    height: 55%;
+}
+
+.arme1 {
+	background-image: url("../img/blade-black.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+	height: 50px;
+	border:2px solid #3c4142;
+	border-radius: 25px;
+	background-color: #ffd500 ;
+	position: relative;
+}
+
+.arme2 {
+	background-image: url("../img/guns-black.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+	height: 50px;
+	border:2px solid #3c4142;
+	border-radius: 25px;
+	background-color: #ffd500 ;
+	position: relative;
+}
+
+.arme3 {
+	background-image: url("../img/bomb-black.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+	height: 50px;
+	border:2px solid #3c4142;
+	border-radius: 25px;
+	background-color: #ffd500 ;
+	position: relative;
+}
+
+.arme4 {
+	background-image: url("../img/sniper-black.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+	height: 50px;
+	border:2px solid #3c4142;
+	border-radius: 25px;
+	background-color:  #ffd500 ;
+	position: relative;
+}
+
+.perso1 {
+	background-image: url("../img/gamer-orange.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+	height: 50px;
+	border:2px solid #3c4142;
+	border-radius: 25px;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.perso2 {
+	background-image: url("../img/gamer-green.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+	height: 50px;
+	border:2px solid #3c4142;
+	border-radius: 25px;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.surlignage {
+	border: 2px solid #ffd500;
+	z-index: 1;
+	transition: all .5s;
+}
+
+.surlignage:hover {
+	border: 2px solid #ffd500;
+	background-color: #ffd500;
+	background-image: none;
+}
+
+
